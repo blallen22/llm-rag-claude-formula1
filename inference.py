@@ -270,7 +270,7 @@ display(Markdown(answer['result']))
 
 
 #########################################
-# 11. Produce RAG outputs with Claude 3 Sonnet
+# 11. Produce outputs with Claude 3 Sonnet for comparison
 text_prompt = "What is the best grandstand for the F1 Monaco Grand Prix?"
 claude_3_text(text_prompt)
 #########################################
