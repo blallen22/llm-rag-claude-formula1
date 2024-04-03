@@ -1,6 +1,6 @@
 # LLM - RAG with Claude for Formula 1 Grandstand Selection
 
-This is a personal project that uses a Retrieval-Augmented Generation (RAG) Large Language Model (LLM) implementation to provide specialized guidance on selecting grandstands for Formula 1 races. This project allows me to solve that problem using Claude models (V2 and Sonnet) via Amazon Bedrock, Amazon Titan Embeddings, and Meta's Facebook AI Similarity Search (FAISS) vector store. 
+This is a personal project that uses a Retrieval-Augmented Generation (RAG) Large Language Model (LLM) implementation to provide specialized guidance on selecting grandstands for Formula 1 races. This project allows me to solve that problem using Claude models (2 and Sonnet) via Amazon Bedrock, Amazon Titan Embeddings, and Meta's Facebook AI Similarity Search (FAISS) vector store. 
 
 My wife and I have become serious Formula 1 (F1) fans, transparently thanks to Netflix's "Drive to Survive" series. After a fun trip to Monza in 2023, we have planned an upcoming trip to the 2024 F1 Monaco Grand Prix. 
 
@@ -29,12 +29,12 @@ This package will demonstrate how to:
 - Define Claude 3 function
 - Embed question and return relevant chunks
 - Create prompt template
-- Produce RAG outputs with Claude V2
+- Produce RAG outputs with Claude 2
 - Produce outputs with Claude 3 Sonnet for comparison
 
-## Claude V2 RAG vs Claude 3 Sonnet Outputs: "If I have a mid-range budget and want a covered seat, which F1 Monaco Grand Prix grandstand should I choose?"
+## Claude 2 RAG vs Claude 3 Sonnet Outputs: "If I have a mid-range budget and want a covered seat, which F1 Monaco Grand Prix grandstand should I choose?"
 
-Claude V2 RAG:
+Claude 2 RAG:
 
 ![image](https://github.com/blallen22/llm-rag-claude-formula1/assets/4731381/6fcf2f8b-d8e9-4f4b-9b24-6099eae8b777)
 
@@ -42,9 +42,9 @@ Claude 3 Sonnet:
 
 ![image](https://github.com/blallen22/llm-rag-claude-formula1/assets/4731381/92bf19b8-5122-4e63-911d-cce5b2365914)
 
-## Claude V2 RAG vs Claude 3 Sonnet Outputs: "If I have an unlimited budget and want the most beautiful view, which F1 Monaco Grand Prix grandstand should I choose?"
+## Claude 2 RAG vs Claude 3 Sonnet Outputs: "If I have an unlimited budget and want the most beautiful view, which F1 Monaco Grand Prix grandstand should I choose?"
 
-Claude V2 RAG:
+Claude 2 RAG:
 
 ![image](https://github.com/blallen22/llm-rag-claude-formula1/assets/4731381/778ad27a-ad8e-45d2-ac11-f8f2dff81957)
 
